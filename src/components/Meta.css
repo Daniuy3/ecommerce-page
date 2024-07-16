@@ -1,0 +1,75 @@
+.meta{
+    padding: 3rem;
+}
+.slogan{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--DarkGrayishBlue);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+.meta__heading{
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+.meta__text{
+    font-size: 16px;
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 2rem;
+}
+.meta__price-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.meta__price{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.meta__discount{
+    color: var(--White);
+    padding:0.5rem 1rem ;
+     background-color: var(--Black);
+     border-radius: 1rem;
+}
+.meta__last-price{
+    font-weight: 600;
+    color: var(--DarkGrayishBlue);
+    text-decoration: line-through ;
+    
+}
+.meta__buttons{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.button__increase{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--LightGrayishBlue);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 30%;
+    align-items: center;
+}
+.button:hover{
+    cursor: pointer;
+}
+.meta__cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: var(--Orange);
+    border-radius: 1rem;
+}
+.meta__cart:hover{
+    cursor: pointer;
+}
+.meta__cart p{
+    font-weight: 600;
+}

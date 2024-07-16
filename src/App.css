@@ -1,0 +1,42 @@
+:root{
+    --Orange: hsl(26, 100%, 55%);
+    --PaleOrange: hsl(25, 100%, 94%);
+
+    /* Neutral */
+    --VeryDarkBlue: hsl(220, 13%, 13%);
+    --DarkGrayishBlue: hsl(219, 9%, 45%);
+    --GrayishBlue: hsl(220, 14%, 75%);
+    --LightGrayishBlue: hsl(223, 64%, 98%);
+    --White: hsl(0, 0%, 100%);
+    --Black : hsl(0, 0%, 0%);
+}
+.container{
+    width: 100%;
+   
+}
+@media (min-width: 768px) { 
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.main{
+
+    display: grid;
+    place-content: center;
+    padding-top: 5rem;
+    gap: 2rem;
+}
+@media (min-width: 768px) { 
+    .main{
+        padding: 7rem 5rem 0 5rem;
+        display: grid;
+        
+        gap: 2rem;
+    }
+}
+@media (min-width: 1024px) { 
+    .main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
